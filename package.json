@@ -1,8 +1,15 @@
 {
   "name": "openshift-hearbeat-monitor-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
+  "bin": {
+    "openshift-hearbeat-monitor-generator": "./index.js"
+  },
+  "author": {
+    "name": "Gabriel Rimes",
+    "email": "gabriel.rimes@dotgroup.com.br"
+  },
   "dependencies": {
     "commander": "^6.2.0",
     "openshift-api-client": "https://github.com/dotdigitalgroup/openshift-api-client"
