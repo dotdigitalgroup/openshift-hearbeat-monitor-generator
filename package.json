@@ -1,6 +1,6 @@
 {
   "name": "openshift-hearbeat-monitor-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
   "bin": {
@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "commander": "^6.2.0",
-    "openshift-api-client": "https://github.com/dotdigitalgroup/openshift-api-client"
+    "openshift-api-client": "^0.1.10"
   }
 }

@@ -33,8 +33,9 @@ ms@2.0.0:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
   integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
 
-"openshift-api-client@https://github.com/dotdigitalgroup/openshift-api-client":
-  version "0.1.9"
-  resolved "https://github.com/dotdigitalgroup/openshift-api-client#89bc64a1472c9e2644c18cadc673248be545d77b"
+openshift-api-client@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/openshift-api-client/-/openshift-api-client-0.1.10.tgz#dfa135fffab1faad2909a91fba51c869a29029ff"
+  integrity sha512-AWdUMXElifzxrYyj2Ske9ficmz3g3QvLdw8foh9zBP39UVh/VMhe88Q+UqzDBhyYLWkaPlFzZ0ZR89p0c9uNPw==
   dependencies:
     axios "^0.19.2"

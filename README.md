@@ -5,7 +5,7 @@ A tool to dynamically generate configuration files to be used with [Heartbeat](h
 ## Installation
 
 ```
-$  npm i -g https://github.com/dotdigitalgroup/openshift-hearbeat-monitor-generator
+$  npm i -g openshift-hearbeat-monitor-generator
 ```
 
 ## Usage
