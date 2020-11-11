@@ -10,6 +10,13 @@
     "name": "Gabriel Rimes",
     "email": "gabriel.rimes@dotgroup.com.br"
   },
+  "keywords": [
+    "openshift",
+    "heartbeat",
+    "elastic",
+    "uptime",
+    "monitor"
+  ],
   "dependencies": {
     "commander": "^6.2.0",
     "openshift-api-client": "^0.1.10"
