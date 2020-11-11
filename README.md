@@ -45,4 +45,8 @@ The routes containing the label will be scanned in your cluster and the output (
 
 You can easily use bash redirection (or by piping with `tee`) to write this configuration into a file that will be read by the Heartbeat daemon (e.g., `/etc/heartbeat/conf.d/openshift-routes.yml`).
 
-**Note:** You can override the name of the label with the enviroment variable `MONITOR_LABEL`.
+### Status Code
+
+Some routes will not return a 200 HTTP status code while still indicating that the application is online. Although Heartbeat is not a tool to perform healthchecks in your applications, you can use the label "uptime-status-code" to get around this.
+
+**Note:** You can override the names of the labels with the enviroment variables `MONITOR_LABEL` and `MONITOR_STATUS_CODE_LABEL`.
