@@ -43,7 +43,7 @@ The routes containing the label will be scanned in your cluster and the output (
   schedule: "@every 1h"
 ```
 
-You can easily use bash redirection (or by piping with `tee`) to write this configuration into a file that will be read by the Heartbeat daemon (e.g., `/etc/heartbeat/conf.d/openshift-routes.yml`).
+You can easily use bash redirection (or by piping with `tee`) to write this configuration into a file that will be read by the Heartbeat daemon (e.g., `/etc/heartbeat/monitors.d/openshift-routes.yml`).
 
 ### Status Code
 
